@@ -1,0 +1,221 @@
+
+
+body {
+  background: #f5f6fb;
+  font-family: 'Roboto', sans-serif;
+  -webkit-transition: .3s ease all;
+  transition: .3s ease all;
+  background-image: url(../img/256.png);
+}
+
+a {
+  color: #222222;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.contenedor {
+  max-width: 10000px;
+  width: 100%;
+  padding: 0px 0;
+  border-radius: 15px;
+}
+
+nav {
+  background: #fcfeff;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 15px 20px;
+  border-radius: 15px;
+  -webkit-transition: .3s ease all;
+  transition: .3s ease all;
+  -webkit-box-shadow: 10px 10px 20px rgba(228, 14, 14, 0.16);
+  box-shadow: 10px 10px 20px rgba(216, 19, 19, 0.16);
+}
+
+nav .logotipo {
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+  color: #000000;
+}
+
+nav .enlaces {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+nav .enlaces a {
+  margin-right: 40px;
+}
+
+nav .enlaces a:hover {
+  color: #707070;
+}
+
+nav .logotipo a:hover{
+  color: #c3e53d;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+}
+
+.wrapperr{
+  width: 100vw;
+  height: 100vw;
+  background-color: aliceblue;
+  color: aliceblue;
+
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 2em;
+}
+
+.brand{
+  margin-top: -7px;
+}
+.brand span{
+  color: aqua;
+}
+.menu{
+  display:flex;
+  width: 50%;
+  justify-content: space-around;
+}
+.menu a{
+  color: aliceblue;
+  text-decoration: none;
+  padding: 10px 10px;
+}
+.menu li{
+  list-style: none;
+}
+.menu .active{
+  color: aqua;
+
+}
+.menu a:hover{
+  background-color: aqua;
+  border-radius: 200px;
+  color: rgb(246, 25, 25);
+  transition: ease-in .4s;
+
+}
+
+
+.wrapper{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 550px;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.wrapper .title h1{
+  color: #c5ecfd;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.contact-form{
+  display: flex;
+}
+
+.input-fields{
+  display: flex;
+  flex-direction: column;
+  margin-right: 4%;
+}
+
+.input-fields,
+.msg{
+  width: 48%;
+}
+
+.input-fields .input,
+.msg textarea{
+  margin: 10px 0;
+  background: transparent;
+  border: 0px;
+  border-bottom: 2px solid #c5ecfd;
+  padding: 10px;
+  color: #c5ecfd;
+  width: 100%;
+}
+
+.msg textarea{
+  height: 212px;
+}
+
+
+
+/*-REDES SOCIALES */
+.social-networks a {
+  display: inline-flex;
+  color: #ffffff;
+  height: 48px;
+  width: 48px;
+  background-color: #000000;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  border-radius: 100%;
+  margin: 30px 20px;
+  transition: transform 0.4s;
+
+}
+
+.social-networks a:hover {
+  transform: scale(1.3);
+
+}
+
+.social-networks a.facebook {
+  background-color: #3c70a4;
+}
+
+.social-networks a.twitter {
+  background-color: #5bd1d7;
+}
+
+.social-networks a.instagram {
+  background-color: #bb7171;
+}
+
+.social-networks a.linkedin {
+  background-color: #1927ea;
+}
